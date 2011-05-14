@@ -5,7 +5,10 @@ gem 'rails', '3.0.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'mysql2', '0.2.6'
+gem 'spree', '0.60.0'
+gem 'spree_i18n', :git => "git://github.com/benzheren/spree_i18n.git"
+gem 'spree_static_content', :git => "git://github.com/spree/spree_static_content.git"
 
 # Use unicorn as the web server
 # gem 'unicorn'
