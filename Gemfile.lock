@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/amedse/spree-heroku.git
+  revision: 0471de9c6fd977fe8c1bd1a06f1a6daa460dbcd2
+  specs:
+    spree_heroku (1.1.0)
+      spree_core
+
+GIT
   remote: git://github.com/benzheren/spree_i18n.git
   revision: d60baceffd50f8fb40b231f981cafd86844804be
   specs:
@@ -166,5 +173,6 @@ DEPENDENCIES
   mysql2 (= 0.2.6)
   rails (= 3.0.7)
   spree (= 0.60.0)
+  spree_heroku (= 1.1.0)!
   spree_i18n!
   spree_static_content!
