@@ -1,3 +1,5 @@
+require 'site_hooks'
+
 module SpreeSite
   class Engine < Rails::Engine
     def self.activate
