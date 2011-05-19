@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/benzheren/spree_i18n.git
-  revision: d5a2e226ed901d22706e95c52280507b3e9fb501
+  revision: 4aab758a69c1e138d6d786c80245b7ada1dc172d
   specs:
     spree_i18n (1.0.0)
       spree_core (>= 0.30.0)
