@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_static_content.git
-  revision: 5d074bbd1b7a26676c47980f833257058e645bd8
+  revision: d455393db333fa78796b0f4f939ab6f12812d10f
   specs:
     spree_static_content (0.40.2)
       spree_core (>= 0.30.0)
