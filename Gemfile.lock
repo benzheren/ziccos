@@ -20,15 +20,6 @@ GIT
       spree_core (>= 0.30.0)
       spree_editor
 
-GIT
-  remote: git://github.com/tomash/globalize-spree.git
-  revision: f9dabb97f19645c7ba83dec297d86a212f5b2326
-  specs:
-    globalize_spree (0.2.0)
-      globalize3 (>= 0.0.9)
-      i18n (>= 0.4.2)
-      spree_core (>= 0.30.0.beta2)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -78,9 +69,6 @@ GEM
       abstract (>= 1.0.0)
     faker (0.9.5)
       i18n (~> 0.4)
-    globalize3 (0.0.11)
-      activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
     highline (1.5.1)
     i18n (0.5.0)
     jquery-rails (0.2.6)
@@ -182,9 +170,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  globalize3
-  globalize_spree!
-  i18n
   mysql2 (= 0.2.6)
   rails (= 3.0.7)
   spree (= 0.60.0)
