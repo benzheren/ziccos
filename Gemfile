@@ -11,6 +11,10 @@ gem 'spree_i18n', :git => "git://github.com/benzheren/spree_i18n.git"
 gem 'spree_static_content', :git => "git://github.com/spree/spree_static_content.git"
 
 gem 'spree_heroku', '1.1.0', :git => 'git://github.com/amedse/spree-heroku.git'
+
+gem 'i18n'
+gem 'globalize3'
+gem "globalize_spree", :git => 'git://github.com/tomash/globalize-spree.git'
 # Use unicorn as the web server
 # gem 'unicorn'
 
