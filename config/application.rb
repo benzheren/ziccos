@@ -8,9 +8,9 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module Ziccos
   class Application < Rails::Application
-  require 'spree_site'
-  config.middleware.use "RedirectLegacyProductUrl"
-  config.middleware.use "SeoAssist"
+    require 'spree_site'
+    config.middleware.use "RedirectLegacyProductUrl"
+    config.middleware.use "SeoAssist"
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -31,8 +31,12 @@ module Ziccos
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
-
+    config.i18n.default_locale = :"zh-CN"
+    
+    config.after_initialize do 
+       Spree::Config.set(:default_locale => config.i18n.default_locale) 
+     end 
+    
     # JavaScript files you want as :defaults (application.js is always included).
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
 
